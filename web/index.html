@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Investigación en Ciencia de Datos</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />    
+</head>
+<body>
+    <div class="container">
+        <!--HEADER-->
+        <div class="header">           
+            <img src="img/banner_2.jpg" class="banner">  
+            <img src="img/uc.png" class="logo">
+            <div id="title">Club de Investigación</div>          
+            <div id="subtitle">Licenciatura en Ciencia de Datos</div>
+        </div>
+        <!--BARRA DE NAVEGACION-->
+        <!--Para agregar otra sección, ir a style.css-->
+        <!--En .main_nav, cambiar grid-template-columns: repeat(n, 1fr)-->
+        <!--Siendo n la cantidad de secciones deseadas. ORIGINAL: repeat(5, 1fr)-->
+        <nav class="main_nav">            
+            <a href="index.html"><div class="sub_nav">Inicio</div></a>
+            <a href="iniciativa.html"><div class="sub_nav">Nuestra Iniciativa</div></a>            
+            <a href="inscripcion.html"><div class="sub_nav">Inscripción</div></a>
+            <a href="coordinacion.html"><div class="sub_nav">Coordinación</div></a>
+            <a href="contacto.html"><div class="sub_nav">Contacto</div></a>               
+        </nav>
+        <!--CONTENIDO-->
+        <div class="index_content">
+            <!--CAJA DE CONTACTO-->
+            <div id="follow_us">
+                <p class="follow_title">Síguenos en Instagram!</p>
+                <a href="https://www.instagram.com">
+                    <div id="instagram_box">                        
+                        <img src="img/instagram.png" id="instagram_logo">
+                        <div id="instagram_link">club.licd</div>                        
+                    </div>
+                </a>
+                <p class="follow_title">Escríbenos!</p>
+                <a href="mailto:club.licd@uc.cl"><p id="mail_link">📧club.licd@uc.cl</p></a>
+            </div>
+
+            <!--ARTICULOS (ITEMS)-->
+            <!--Para publicar, crear etiqueta div class="article", cambiar id para estililizar de manera particular (opcional)-->
+            <div class="article" id="index_art_1">
+                <h1>¡Bienvenid@s al Club!</h1>
+                <p>Le damos la bienvenida a todos y todas las estudiantes al Club
+                    de Investigación de Licenciatura en Ciencia de Datos. Esta iniciativa surge de 
+                    los estudiantes para los estudiantes, y busca fomentar la investigación a nivel 
+                    de pregrado dentro de la licenciatura. En particular, el club ofrece la posibilidad, 
+                    a cualquier estudiante que así lo quisiese, de inscribirse a investigaciones
+                    de duración semestral del área de ciencia de datos, las cuales son propuestas por 
+                    académicos de la UC. La idea detrás del club no es solo facilitar el proceso de 
+                    obtener una investigación de pregrado, sino también de generar una comunidad 
+                    alrededor de la investigación, mediante la realización de encuentros entre 
+                    estudiantes (y académicos de ser posible) donde se realicen conversatorios y  
+                    actividades relacionadas con la investigación. Para más información, dirigete a la sección 
+                    <a href="iniciativa.html">Nuestra iniciativa.</a> Quedan tod@s cordialmente invitados a ser 
+                    parte del club!
+                </p>
+                <h6>Fecha de publicación: 07 de Febrero, 2022</h6>
+            </div>            
+        </div>        
+    </div>
+</body>
+</html>

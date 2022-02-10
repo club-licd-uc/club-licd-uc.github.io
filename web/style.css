@@ -1,0 +1,143 @@
+body
+{
+    background-color: #ecf1f1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 210px 30px 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: #ecf1f1;
+    position: relative;
+}
+.header
+{
+    width: 100%;
+    height: 10px;            
+    object-fit: contain;
+    margin:0;
+    grid-row: 1 / 2;
+    position: relative;
+    background:transparent
+}
+.header .banner
+{
+    width: 100%;
+    height: 210px;
+    z-index:1;
+    position:relative;
+    opacity: 0.7;
+}
+.header .logo
+{
+    position:absolute;
+    top: 60px;
+    left:20px;            
+    z-index:2;            
+    height: 130px;
+    width: 130px;
+    opacity: 1;
+
+}
+#title
+{
+    z-index:2;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    position: absolute;
+    top:110px;
+    left:140px;            
+}
+#subtitle
+{
+    z-index:2;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:145px;
+    left:140px;            
+}
+
+.main_nav
+{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #142562;
+    grid-row: 2 / 3;
+
+}
+.main_nav a .sub_nav
+{
+    text-align: center;
+    color: white;
+    vertical-align: middle;            
+    height: 30px;            
+}
+
+.main_nav a .sub_nav:nth-child(n):hover
+{
+    background-color: rgb(6, 127, 143);            
+}
+.main_nav a .sub_nav:visited 
+{
+    color:white
+}
+.main_nav .sub_nav a:hover
+{
+    color:yellow
+}
+.index_content
+{
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 1fr;
+
+}
+#follow_us
+{
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    position: relative;
+    left: 35px;
+    top: 50px;
+    border: solid 1px black;            
+}
+#follow_us a, #follow_us a:visited
+{
+    color:black
+}        
+#instagram_box
+{
+    display:grid;
+    grid-template-columns: 49px 22px 1fr;
+    grid-template-rows: 1fr;
+}
+#instagram_logo
+{
+    grid-column:2/3;
+    height: 20px;
+    width: 20px;
+}
+#mail_link
+{
+    text-align: center;
+}
+.follow_title
+{
+    text-align: center;
+}
+.article
+{
+    text-align: justify;
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+}
+

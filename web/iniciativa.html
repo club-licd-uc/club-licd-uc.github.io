@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Investigación en Ciencia de Datos</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />    
+</head>
+<body>
+    <div class="container">
+        <div class="header">           
+            <img src="img/banner_2.jpg" class="banner">  
+            <img src="img/uc.png" class="logo">
+            <div id="title">Club de Investigación</div>          
+            <div id="subtitle">Licenciatura en Ciencia de Datos</div>
+        </div>
+        <!--BARRA DE NAVEGACION-->
+        <!--Para agregar otra sección, ir a style.css-->
+        <!--En .main_nav, cambiar grid-template-columns: repeat(n, 1fr)-->
+        <!--Siendo n la cantidad de secciones deseadas. ORIGINAL: repeat(5, 1fr)-->
+        <nav class="main_nav">            
+            <a href="index.html"><div class="sub_nav">Inicio</div></a>
+            <a href="iniciativa.html"><div class="sub_nav">Nuestra Iniciativa</div></a>            
+            <a href="inscripcion.html"><div class="sub_nav">Inscripción</div></a>
+            <a href="coordinacion.html"><div class="sub_nav">Coordinación</div></a>
+            <a href="contacto.html"><div class="sub_nav">Contacto</div></a>               
+        </nav>
+        <!--CONTENIDO-->
+        <div class="index_content">
+            <!--CAJA DE CONTACTO-->
+            <div id="follow_us">
+                <p class="follow_title">Síguenos en Instagram!</p>
+                <a href="https://www.instagram.com">
+                    <div id="instagram_box">                        
+                        <img src="img/instagram.png" id="instagram_logo">
+                        <div id="instagram_link">club.licd</div>                        
+                    </div>
+                </a>
+                <p class="follow_title">Escríbenos!</p>
+                <a href="mailto:club.licd@uc.cl"><p id="mail_link">📧club.licd@uc.cl</p></a>
+            </div>
+            <!--ARTICULOS (ITEMS)-->
+            <!--Para publicar, crear etiqueta div class="article", cambiar id para estililizar de manera particular (opcional)-->
+            <div class="article" id="iniciativa_art_1">
+                <h1>Nuestra iniciativa</h1>
+                <p>
+                    Estamos muy emocionados de contarte de una nueva iniciativa estudiantil, 
+                    el Club de Investigación en Ciencia de Datos!
+                </p>
+
+                <h2>¿En qué consistirá el club?</h2>
+                <p>
+                    Los miembros podrán participar de una <b>investigación semestral en Ciencia de Datos</b> 
+                    con algún profesor de la UC.<br/>
+                    <br/>Estas investigaciones podrán ser <b>individuales</b> o <b>grupales</b>.<br/>               
+                    <br/>Además, podrán participar de las actividades que serán organizadas por el club, 
+                    para que todos en conjunto construyamos una <b>comunidad de investigación.</b>
+                </p>
+                <h2>¿Cuáles son los requisitos para ser miembro del club?</h2>
+                <p>
+                    Para ser miembro debes participar de algún proyecto de investigación.<br/>
+                    <br/>Los proyectos serán <b>propuestos por los profesores</b> y podrás postular a ellos 
+                    cuando las inscripciones estén abiertas.<br/>
+                    <br/>También, podrás postular un tema en común acuerdo con un profesor.<br/>
+                    <br/>Además, los miembros <b>deberán participar</b> de las actividades organizadas 
+                    por el club de investigación.
+                </p>
+
+                <h2>¿Qué actividades tendrá el Club de Investigación?</h2>
+                <p>
+                    Para promover una comunidad, se diseñarán diversas actividades enfocadas en las 
+                    investigaciones de los alumnos. <br/>
+                    <br/>Ejemplos de estas serían:<br/>
+                    <ul>
+                        <li>Seminarios de avance de las investigaciones</li><br/>
+                        <li>Talleres de herramientas relacionadas con las investigaciones</li>
+                    </ul>
+                    Tanto las actividades como las investigaciones son de carácter voluntario, 
+                    es decir, no hay ninguna nota asociada a ellos.<br/>
+                    <br/>Por ende, los alumnos que quieran ser miembros deberán participar bajo un 
+                    <b>compromiso personal y voluntario.</b>                   
+                </p>
+
+                <h2>¿Y los requisitos de las investigaciones?</h2>
+                <p>
+                    Se espera que los alumnos tengan conocimientos equivalentes a los cursos:<br/>
+                    <ul>
+                        <li>
+                            <a href="https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=IMT2210">
+                                Álgebra Lineal para Ciencia de Datos.
+                            </a>
+                        </li><br/>
+                        <li>
+                            <a href="https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=IMT2200">
+                                Introducción a Ciencia de Datos.
+                            </a>
+                        </li><br/>
+                        <li>
+                            <a href="https://catalogo.uc.cl/index.php?tmpl=component&option=com_catalogo&view=programa&sigla=IIC2233">
+                                Programación Avanzada.
+                            </a>
+                        </li>
+                    </ul>
+                    <h5>Nota: Se recomienda no haber reprobado ninguno de estos cursos.</h5>
+                    Además, se necesita dedicar entre 5 y 10 horas semanales a la investigación.
+                </p>                                
+            </div>            
+        </div>        
+    </div>
+</body>
+</html>
