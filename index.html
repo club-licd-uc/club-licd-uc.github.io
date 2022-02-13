@@ -4,20 +4,20 @@
         <meta charset="UTF-8">
         <title>Club de Investigación en Ciencia de Datos</title>
         <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="header">
-            <!--<img src="img/banner.jpg" class="banner">-->
             <img src="img/uc.png" class="logo">
-            <br>
+            <p style='font-size:0rem;margin:0px'><br></p>
             <h1>Club de Investigación en Ciencia de Datos</h1>
-            <h2>
-                Organización Estudiantil
-                <br>
-                Licenciatura en Ingeniería en Ciencia de Datos
-                <br>
-                Pontificia Universidad Católica de Chile
-            </h2>
+            <h2>Organización Estudiantil</h2>
+            <p style='font-size:0rem;margin:0px'><br></p>
+            <h2>Licenciatura en Ingeniería en Ciencia de Datos</h2>
+            <p style='font-size:0rem;margin:0px'><br></p>
+            <h2>Pontificia Universidad Católica de Chile</h2>
         </div>
         <div class="topnav">
             <a class="active" href="index.html">INICIO</a>
@@ -26,43 +26,38 @@
             <a href="coordinacion.html">COORDINACIÓN</a>
             <a href="contacto.html">CONTACTO</a>
         </div>
-            <!--CONTENIDO-->
-            <div class="index_content">
-                <!--CAJA DE CONTACTO-->
-                <div id="follow_us">
-                    <p class="follow_title">Síguenos en Instagram!</p>
-                    <a href="https://www.instagram.com/club.licd/">
-                        <div id="instagram_box">
-                            <img src="img/instagram.png" id="instagram_logo">
-                            <div id="instagram_link">club.licd</div>                        
-                        </div>
-                    </a>
-                    <p class="follow_title">Escríbenos!</p>
-                    <a href="mailto:club.licd@uc.cl"><p id="mail_link">📧club.licd@uc.cl</p></a>
-                </div>
-
-                <!--ARTICULOS (ITEMS)-->
-                <!--Para publicar, crear etiqueta div class="article", cambiar id para estililizar de manera particular (opcional)-->
-                <div class="article" id="index_art_1">
-                    <h1>¡Bienvenidos al Club!</h1>
-                    <p>
-                        Le damos la bienvenida a todos los estudiantes al Club de Investigación de Licenciatura en Ciencia de Datos.
-                        <br><br>
-                        Esta iniciativa surge de los estudiantes para los estudiantes, y busca fomentar la investigación a nivel de pregrado dentro de la licenciatura.
-                        <br><br>
-                        En particular, el club ofrece la posibilidad, a cualquier estudiante que así lo quisiese, de inscribirse a investigaciones de duración semestral
-                        del área de ciencia de datos, las cuales son propuestas por académicos de la UC.
-                        <br><br>
-                        La idea detrás del club no es solo facilitar el proceso de obtener una investigación de pregrado, sino también de generar una comunidad
-                        alrededor de la investigación, mediante la realización de encuentros entre estudiantes (y académicos de ser posible) donde se realicen
-                        conversatorios y  actividades relacionadas con la investigación.
-                        <br><br>
-                        Puedes encontrar más información en la sección <a href="iniciativa.html" style="text-decoration:none;font-weight:bold;">NOSOTROS</a>.
-                    </p>
-                    <hr>
-                    <p><b>Última actualización:</b> 10 de febrero, 2022.</p>
-                </div>            
-            </div>        
+        <div class="content">
+            <div class="welcome">
+                <h1>¡Bienvenidos al Club!</h1>
+                <p>
+                    Esta es la página oficial al Club de Investigación en Ciencia de Datos de la Licenciatura en Ingeniería en Ciencia de Datos de la Pontificia
+                    Universidad Católica de Chile.
+                    <br><br>
+                    Esta iniciativa surge de los estudiantes para los estudiantes, y busca fomentar la investigación a nivel de pregrado dentro de la licenciatura.
+                    <br><br>
+                    En particular, el club ofrece la posibilidad, a cualquier estudiante que así lo quisiese, de inscribirse a investigaciones de duración semestral
+                    del área de ciencia de datos, las cuales son propuestas por académicos de la UC.
+                    <br><br>
+                    La idea detrás del club no es solo facilitar el proceso de obtener una investigación de pregrado, sino también de generar una comunidad
+                    alrededor de la investigación, mediante la realización de encuentros entre estudiantes (y académicos de ser posible) donde se realicen
+                    conversatorios y  actividades relacionadas con la investigación.
+                    <br><br>
+                    Puedes encontrar más información en la sección <a href="iniciativa.html" style="text-decoration:none;font-weight:bold;">NOSOTROS</a>.
+                </p>
+            </div>
+            <hr>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/club.licd/" target="_blank"><h1><i class="fa fa-instagram fa-gradient"></i>¡Síguenos en Instagram! @club.licd</h1></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=club.licd@uc.cl" target="_blank"><h1><i class="fa fa-at fa-gradient"></i>¡Escríbenos al correo! club.licd@uc.cl</h1></a>
         </div>
     </body>
+    <footer>
+        <span style="float:left;margin-right:10px;margin-left:10px;">
+            <p><i class="fa fa-copyright fa-flip-horizontal" style="margin-right:10px;"></i>Página diseñada por Diego Rodríguez y Vicente Agüero.</p>
+        </span>
+        <span style="float:right;margin-right:10px;margin-left:10px;">
+            <p style="text-align:right;"><b>Última actualización:</b> 13 de febrero, 2022.</p>
+        </span>
+    </footer>
 </html>
