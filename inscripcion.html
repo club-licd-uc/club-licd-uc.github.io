@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club de Investigación en Ciencia de Datos</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="all" />    
-</head>
-<body>
-    <div class="container">
-        <div class="header">           
-            <img src="img/banner_2.jpg" class="banner">  
+    <head>
+        <meta charset="UTF-8">
+        <title>Club LICD</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="img/icono-uc-color.ico"/> 
+    </head>
+    <body>
+        <div class="header">
             <img src="img/uc.png" class="logo">
-            <div id="title">Club de Investigación</div>          
-            <div id="subtitle">Licenciatura en Ciencia de Datos</div>
+            <p style='font-size:0rem;margin:0px'><br></p>
+            <h1>Club de Investigación en Ciencia de Datos</h1>
+            <h2>Organización Estudiantil</h2>
+            <p style='font-size:0rem;margin:0px'><br></p>
+            <h2>Licenciatura en Ingeniería en Ciencia de Datos</h2>
+            <p style='font-size:0rem;margin:0px'><br></p>
+            <h2>Pontificia Universidad Católica de Chile</h2>
         </div>
-        <!--BARRA DE NAVEGACION-->
-        <!--Para agregar otra sección, ir a style.css-->
-        <!--En .main_nav, cambiar grid-template-columns: repeat(n, 1fr)-->
-        <!--Siendo n la cantidad de secciones deseadas. ORIGINAL: repeat(5, 1fr)-->
-        <nav class="main_nav">            
-            <a href="index.html"><div class="sub_nav">Inicio</div></a>
-            <a href="iniciativa.html"><div class="sub_nav">Nuestra Iniciativa</div></a>            
-            <a href="inscripcion.html"><div class="sub_nav">Inscripción</div></a>
-            <a href="coordinacion.html"><div class="sub_nav">Coordinación</div></a>
-            <a href="contacto.html"><div class="sub_nav">Contacto</div></a>               
-        </nav>
-        <!--CONTENIDO-->
-        <div class="index_content">
-            <!--CAJA DE CONTACTO-->
-            <div id="follow_us">
-                <p class="follow_title">Síguenos en Instagram!</p>
-                <a href="https://www.instagram.com">
-                    <div id="instagram_box">                        
-                        <img src="img/instagram.png" id="instagram_logo">
-                        <div id="instagram_link">club.licd</div>                        
-                    </div>
-                </a>
-                <p class="follow_title">Escríbenos!</p>
-                <a href="mailto:club.licd@uc.cl"><p id="mail_link">📧club.licd@uc.cl</p></a>
-
+        <div class="topnav">
+            <a href="index.html">INICIO</a>
+            <a href="club.html">EL CLUB</a>
+            <a class="active" href="inscripcion.html">INSCRIPCIÓN</a>
+            <a href="coordinacion.html">COORDINACIÓN</a>
+        </div>
+        <div class="content">
+            <div class="form">
+                <h1>¡Inscríbete en el form!</h1>
             </div>
-            <!--ARTICULOS (ITEMS)-->
-            <!--Para publicar, crear etiqueta div class="article", cambiar id para estililizar de manera particular (opcional)-->
-            <div class="article" id="inscripcion_art_1">
-                <h1>Inscripción 💻</h1>
-                <p>Las personas que se encuentren interesadas en ser parte del club deben rellenar el siguiente
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSk16bRn40d32PPk6R90yC8sGcfSbam9drchGQ57jC88vpiQ/viewform">
-                        form.
-                    </a>
-                </p>             
-            </div>            
-        </div>        
-    </div>
-</body>
+            <div style="background: url(img/graph.jpeg) no-repeat center center fixed;width:80%;margin:0 auto;margin-bottom:50px">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSk16bRn40d32PPk6R90yC8sGcfSbam9drchGQ57jC88vpiQ/viewform?embedded=true"
+                width="100%" height="390px" frameborder="0">Cargando…</iframe>
+            </div>
+            <hr>
+        </div>
+        <div class="social">
+            <h1>
+                <a href="https://www.instagram.com/club.licd/" target="_blank"><i class="fa fa-instagram fa-gradient"></i>
+                    ¡Síguenos en Instagram! @club.licd
+                </a>
+            </h1>
+            <h1>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=club.licd@uc.cl" target="_blank">
+                    <i class="fa fa-at fa-gradient"></i>¡Escríbenos al correo! club.licd@uc.cl
+                </a>
+            </h1>
+        </div>
+    </body>
+    <footer>
+        <span style="float:left;margin-right:10px;margin-left:10px;">
+            <p><i class="fa fa-copyright fa-flip-horizontal" style="margin-right:10px;"></i>Página diseñada por Diego Rodríguez y Vicente Agüero.</p>
+        </span>
+        <span style="float:right;margin-right:10px;margin-left:10px;">
+            <p style="text-align:right;"><b>Última actualización:</b> 13 de febrero, 2022.</p>
+        </span>
+    </footer>
 </html>
