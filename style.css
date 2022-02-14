@@ -105,9 +105,11 @@ footer {
   }
 .content {
     font-family: 'Source Sans Pro', sans-serif;
-    width: 100%-60px;
     margin-left: 30px;
     margin-right: 30px;
+}
+.content h2 {
+    font-size: 1.2rem;    
 }
 .welcome {
     font-family: 'Source Sans Pro', sans-serif;
