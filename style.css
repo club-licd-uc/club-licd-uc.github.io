@@ -93,7 +93,7 @@ footer {
     padding: 14px 0px;
     text-decoration: none;
     font-size: 1.3rem;
-    width: 25%;
+    width: 20%;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -214,7 +214,7 @@ h1 .h1color {
     padding-bottom: 10px;
 }
 .card:hover img {
-    animation: shake 0.5s;
+    animation: shake 1s;
     animation-iteration-count: infinite;
 }
 @keyframes shake {
@@ -256,4 +256,94 @@ h1 .h1color {
 }
 .card:hover .title {
     color:rgb(65, 65, 65);
+}
+
+.project {
+    width: 100%;
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 1.75rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+.project p {
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+.project-profile{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.profile-card{
+    position: relative;
+    width: 210px;
+    height: 210px;
+    background: #173267;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0px 30px;
+    margin-top: 30px;
+}
+
+.profile-card:hover{
+    border-radius: 10px;
+    height: 300px;
+    padding-bottom: 30px;
+}
+
+.profile-card .profile-img{
+    position: relative;
+    transition: 1s;
+    z-index: 99;
+  }
+
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: 1s;
+    background-color: #173267;
+}
+
+.profile-card:hover .profile-img{
+    transform: translateY(-80px);
+}
+
+.profile-card:hover .profile-img .img{
+    border-radius: 10px;
+}
+
+.profile-caption{
+    text-align: center;
+    transform: translateY(-60px);
+    opacity: 0;
+    transition: .2s;
+}
+.profile-card:hover .profile-caption {
+    opacity: 1;
+}
+.profile-caption h3{
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.profile-caption p{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
 }
