@@ -329,7 +329,7 @@ h1 .h1color {
 
 .profile-caption{
     text-align: center;
-    transform: translateY(-60px);
+    transform: translateY(-90px);
     opacity: 0;
     transition: .2s;
 }
@@ -340,7 +340,7 @@ h1 .h1color {
     color: white;
     margin: 0px;
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 .profile-caption p{
     color: white;
