@@ -268,20 +268,37 @@ h1 .h1color {
 
 .project h2 {
     font-size: 1.75rem;
+    margin: 10px 0px;
 }
 
 .project h3 {
     font-size: 1.5rem;
+    margin: 10px 0px;
+}
+.project i {
+    margin:0px;
+    padding:0px;
+    color:#fdbd10;
+    text-shadow: 1px 1px black;
+    font-size: 2rem;
+}
+
+.project h4 {
+    font-size: 1.5rem;
+    color: #fdbd10;
+    text-shadow: 1px 1px black;
+    margin: 10px;
 }
 
 .project p {
     font-size: 1.25rem;
     text-align: justify;
+    margin: 0px;
 }
 
 .project-profile{
     width: 100%;
-    height: 450px;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,21 +307,22 @@ h1 .h1color {
 
 .profile-card{
     position: relative;
-    width: 210px;
-    height: 210px;
+    width: 180px;
+    height: 180px;
     background: #173267;
-    padding: 30px;
+    padding: 15px;
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
     transition: .6s;
-    margin: 0px 30px;
-    margin-top: 30px;
+    margin: 0px;
+    /* margin: 0px 30px;
+    margin-top: 30px; */
 }
 
 .profile-card:hover{
     border-radius: 10px;
-    height: 300px;
-    padding-bottom: 30px;
+    height: max-content;
+    padding-bottom:0px;
 }
 
 .profile-card .profile-img{
@@ -323,7 +341,8 @@ h1 .h1color {
 }
 
 .profile-card:hover .profile-img{
-    transform: translateY(-80px);
+    transform: translateY(-40px);
+    transition: 1s;
 }
 
 .profile-card:hover .profile-img .img{
@@ -332,9 +351,10 @@ h1 .h1color {
 
 .profile-caption{
     text-align: center;
-    transform: translateY(-90px);
+    transform: translateY(-40px);
     opacity: 0;
-    transition: .2s;
+    transition: .1s;
+    pointer-events: none;
 }
 .profile-card:hover .profile-caption {
     opacity: 1;
@@ -349,4 +369,79 @@ h1 .h1color {
     color: white;
     text-align: center;
     font-size: 1.1rem;
+}
+.profile-card:hover{
+    padding-bottom:0px;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
+.profile-card-student{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background: #173267;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0px 10px;
+    /* margin: 0px 30px;
+    margin-top: 30px; */
+}
+
+.profile-card-student:hover{
+    border-radius: 10px;
+    height: max-content;
+    padding-bottom:0px;
+}
+
+.profile-card-student .profile-img-student{
+    position: relative;
+    transition: 1s;
+    z-index: 99;
+  }
+
+.profile-img-student img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: 1s;
+    background-color: #173267;
+}
+
+.profile-card-student:hover .profile-img-student{
+    transform: translateY(-40px);
+    transition: 1s;
+}
+
+.profile-card-student:hover .profile-img-student .img{
+    border-radius: 10px;
+}
+
+.profile-caption-student{
+    text-align: center;
+    transform: translateY(-40px);
+    opacity: 0;
+    transition: .1s;
+}
+.profile-card-student:hover .profile-caption-student {
+    opacity: 1;
+}
+.profile-caption-student h3{
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+.profile-caption-student p{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.profile-card-student:hover{
+    padding-bottom:0px;
 }
